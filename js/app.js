@@ -1,3 +1,5 @@
+const API_URL="https://ocr.valhiroyuki.workers.dev";
+
 const pdfFile=document.getElementById("pdfFile");
 
 const selectBtn=document.getElementById("selectBtn");
