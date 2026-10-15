@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-OCR</title>
 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>AI-OCR 注文書読取システム</h1>
+
+    <div class="upload-area">
+
+        <input
+            type="file"
+            id="pdfFile"
+            accept=".pdf"
+            hidden
+        >
+
+        <button id="selectBtn">
+            PDFを選択
+        </button>
+
+        <p id="fileName">
+            ファイルが選択されていません
+        </p>
+
+    </div>
+
+    <button
+        id="analyzeBtn"
+        disabled
+    >
+        解析開始
+    </button>
+
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
